@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>practicando html y css</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/Normaliza.css">
+    <link rel="stylesheet" type="text/css" href="practicando.css">
+    <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/39fd49c23e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="encabezado">
+
+        <header>
+            <i class="fa-sharp fa-solid fa-user"></i> PRACTICANDO PAGINAS
+        </header> <img class="img" src="../imagenes/descarga.jpg">
+        <audio controls="autoplay">
+            <source src="../audio/Spider.mp3.mp3">
+        </audio>
+    </div>
+    <div class="container">
+
+        <nav class="container__nav">
+            <ol>
+                <li>
+                    <i class="fa-sharp fa-solid fa-house"></i><a href="#">inicio</a>
+                </li>
+                <li>
+
+                    <i class="fa-sharp fa-solid fa-user"></i><a href="#">Usuarios</a>
+                </li>
+                <li>
+
+
+                    <i class="fa-sharp fa-solid fa-arrow-right"></i><a href="#">Cuentas</a>
+                </li>
+                <li>
+
+
+                    <i class="fa-sharp fa-solid fa-address-book"></i><a href="#">telefonos</a>
+                </li>
+            </ol>
+        </nav>
+
+        <div class="content">
+            <h1>CSS Layout - float and clear</h1>
+            <article>The CSS float property specifies how an element should float.<br><br>
+                The CSS clear property specifies what elements can float beside the cleared element and on which side.
+            </article>
+            <h1>The float Property</h1>
+            <p>The float property is used for positioning and formatting content e.g. let an image float left to the
+                text in a container.<br>
+                The float property can have one of the following values:</p>
+            <h1>CSS Overflow</h1>
+            <p>The overflow property specifies whether to clip the content or to add scrollbars when the content of an
+                element is too big to fit in the specified area.</p>
+            <article>The overflow property has the following values:</article>
+            <ol>
+                <li>visible - Default. The overflow is not clipped. The content renders outside the element's box</li>
+                <li>hidden - The overflow is clipped, and the rest of the content will be invisible</li>
+                <li>scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content</li>
+                <li>auto - Similar to scroll, but it adds scrollbars only when necessary</li>
+            </ol>
+            <article>
+                Note: The overflow property only works for block elements with a specified height.
+
+                Note: In OS X Lion (on Mac), scrollbars are hidden by default and only shown when being used (even
+                though "overflow:scroll" is set).
+            </article>
+            <h1>CSS Pseudo-elements</h1>
+            <p>What are Pseudo-Elements?
+                A CSS pseudo-element is used to style specified parts of an element.
+
+                For example, it can be used to:
+
+                Style the first letter, or line, of an element
+                Insert content before, or after, the content of an element</p>
+
+            <p>Note: The ::first-line pseudo-element can only be applied to block-level elements.
+
+                The following properties apply to the ::first-line pseudo-element:</p>
+            <ol>
+                <li>font properties</li>
+                <li>color properties</li>
+                <li>background properties</li>
+                <li>word-spacing</li>
+                <li>letter-spacing</li>
+                <li>text-decoration</li>
+                <li>vertical-align</li>
+                <li>text-transform</li>
+                <li>line-height</li>
+                <li>clear</li>
+            </ol>
+        </div>
+
+        <aside class="input">
+            <input type="text" name="text" placeholder="Nombre: ">
+            <input type="password" placeholder="Contraceña:">
+            <input type="email" placeholder="Mail:">
+            <input type="date">
+            <input type="submit">
+            <img class="img__aside" src="../imagenes/computadoras.jpg">
+        </aside>
+    </div>
+
+    <footer>
+        <i class="fa-sharp fa-solid fa-user"></i>
+        estudios de <b>Albin pirela</b>
+    </footer>
+</body>
+
+</html>
